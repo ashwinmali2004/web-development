@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 300px;
+      margin: 0 auto;
+      margin-top: 150px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .container img{
+        margin: 2px 77px;
+        padding: 2px 2px;
+        width: 50%;
+        height: 50%;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+
+    .form-group input[type="submit"] {
+      background-color: #2267a9;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .form-group input[type="submit"]:hover {
+      background-color: #1b5184;
+    }
+    form #item{
+      text-align: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+    form #item-1 {
+      text-align: center;
+      justify-content: center;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 12px 12px;
+    }
+    form #item-1 a:hover{
+      color: #1b5184;
+    }
+    form .item-2{
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="icon.jpeg" >
+    <h1>Login</h1>
+    <form>
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter your username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Login">
+      </div>
+      <div class="form-group" id="item">
+        OR
+      </div>
+      <div class="item-2">If you are a new user
+        <br>
+      </div>
+      
+      <div class="form-group" id="item-1">
+        <a href="registration.html">Sign Up</a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maliji Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Ysabeau+Office:wght@1&display=swap"
+    rel="stylesheet">
+<style>
+    /*CSS Reset */
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url("back2.jpg");
+        font-family: 'Kanit', sans-serif;
+    }
+
+    .left {
+        position: absolute;
+        display: inline-block;
+        /* border: 2px solid red; */
+        left: 50px;
+        top: 20px;
+    }
+
+    .mid {
+        /* width: 33%; */
+        display: block;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+        width: 50%;
+        padding: 2px;
+        border-radius: 20px;
+        /* font-size: 23px; */
+
+    }
+
+    .right {
+        display: inline-block;
+        /* border: 2px solid yellow; */
+        position: absolute;
+        right: 21px;    
+        top: 36px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        height: 2px;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        margin: 20px;
+        height: 2px;
+        padding: 2px 2px;
+
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .left img {
+        width: 89px;
+        filter: invert(100%);
+        /* invert function converts white img to black and black to white. */
+    }
+
+    .left div {
+        line-height: 15px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .btn {
+        font-family: 'Kanit', sans-serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 3px 3px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgba(31, 30, 30);
+    }
+
+    .container {
+        margin: 125px 55px;
+        border: 2px solid white;
+        width: 40%;
+        padding: 28px 135px;
+        border-radius: 40px;
+    }
+
+    .form-group input {
+        font-family: 'Kanit', sans-serif;
+        text-align: center;
+        display: block;
+        width: 332px;
+        padding: 0px;
+        border: 0px solid black;
+        margin: 7px auto;
+        font-size: 18px;
+        border-radius: 18px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 332px;
+        margin: 15px auto;
+        border-radius: 18px;
+    }
+    .mar {
+        background-color: lightgray;
+        color: black;
+        width: auto;
+        height: 21px;
+        scroll-behavior: auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="icon.jpeg" alt="">
+            <div>Maliji Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Jaipur now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">
+                submit
+            </button>
+        </form>
+    </div>
+    <div class="mar">
+    <marquee class="marq">
+        Welcome to our official site of Maliji Fitness. Here you will get all information about us!!    
+    </marquee>
+    </div>
+</body>
+
+</html>
